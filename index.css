@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F3E5D7;
+    
+}
+.card {
+    background-color: white;
+    width: 736px;
+    padding: 40px;
+    border-radius: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    gap: 40px;
+}
+
+img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.heading h1 {
+  font-family: "Young Serif", serif;  
+  font-size: 40px;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 40px;
+}
+
+.desc{
+font-family:"Outfit", sans-serif; 
+color: #5F564D;
+margin-top: 24px;
+gap: 32px;
+
+}
+
+.preparation{ 
+background-color: #FFF7FB;
+margin-top: 32px;
+padding: 24px;
+display: grid;
+grid-template-columns: 1fr;
+gap: 16px;
+}
+
+.preparation h2 {
+font-size: 20px;
+font-family:"Outfit", sans-serif;  
+font-weight: 500;
+color: #7A284E;
+
+}
+.preparation ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 20px;
+}
+
+.Ingredient {
+display: grid;
+grid-template-columns: 1fr;
+gap: 24px;
+}
+
+.Ingredient h2 {
+    font-family:"Young Serif", serif; 
+    font-size: 20px;
+    color: #854632;
+
+}
+.Ingredient ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 20px;
+    color: #5F564D;
+    font-family:"Outfit", sans-serif;  
+}
+
+
+.Ingredient ul li::marker {
+    color: #854632;
+
+}
+.Instruction {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+}
+.Instruction h2{
+    font-family:"Young Serif", serif; 
+    font-size: 20px;
+    color: #854632;
+}
+.Instruction ol {
+display: flex;
+flex-direction: column;
+gap: 8px;
+margin-left: 20px;
+color: #5F564D;
+
+}
+
+.Instruction ol li::marker {
+    color: #854632;
+}
+.nutrition {
+    display: flex;
+    flex-direction: column;
+
+}
+.nutrition p {
+    font-family:"Outfit", sans-serif; 
+    color: #5F564D;
+}
+.nutrition h2 {
+    color: #854632;
+    font-size: 28px;
+    font-family:"Young Serif", serif; 
+    font-weight: regular;
+}
+.td {
+    color: #854632;
+}
+table, tr, td {
+    border-collapse: collapse;
+    border-bottom: 1px solid #E3DDD7;
+    padding: 10px;
+    font-family:"Outfit", sans-serif ;
+    font-size: 16px;
+    font-style: normal;
+
+}
